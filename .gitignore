@@ -1,6 +1,9 @@
 # Ignore Everything
-*
+/*
 
 # Don't Ignore 
 !.gitignore
-!.config/
+!nvim/
+nvim/plugin
+nvim/spell
+
