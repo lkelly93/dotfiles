@@ -3,4 +3,4 @@
 
 # Don't Ignore 
 !.gitignore
-!.config/nvim/
+!.config/
