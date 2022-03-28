@@ -11,4 +11,5 @@ nvim/spell
 i3/*
 !i3/config
 !i3/picom.conf
+!kitty
 
