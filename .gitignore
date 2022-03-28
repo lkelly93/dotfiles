@@ -3,13 +3,24 @@
 
 # Don't Ignore 
 !.gitignore
+
+# nvim
 !nvim/
 nvim/plugin
 nvim/spell
+
+#Arcologout
 !arcologout
+
+#i3
 !i3/
 i3/*
 !i3/config
 !i3/picom.conf
-!kitty
+
+#kitty
+!kitty/
+
+#zsh
+!zsh/
 

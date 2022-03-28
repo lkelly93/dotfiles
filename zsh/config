@@ -1,0 +1,14 @@
+setopt no_share_history
+export EDITOR='nvim'
+alias vim=nvim
+alias ls='ls -l --color=auto'
+alias cd..='cd ..'
+alias update='sudo pacman -Syyu; yay'
+alias grep='grep --color=auto'
+
+[[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
+
+export BROWSER=/usr/bin/google-chrome-stable
+
+export PATH="$PATH:$HOME/go/bin"
+export PATH="$PATH:$HOME/.local/bin"
